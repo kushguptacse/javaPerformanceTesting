@@ -4,7 +4,7 @@
 1.Micro-benchmarking is the way of testing running time of method by extracting that method out from the original project and run it in a seprate project to test.
 <br/>
 Micro-benchmarking is not ideal way to measure performance. As same method when moved back to orignal project can impact other method performance. and might reduce overall performance.
-<br/> There are tools like JMH to do Macro-benchmarking (where testing is done inside project)
+<br/> There are tools like JMH that can do Micro-benchmarking also.
 <br/>
 2.Here two version of isPrime method exists. one has primitive int and less loop time. other has Integer object and run o(n)
 <br/>
