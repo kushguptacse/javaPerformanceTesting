@@ -1,5 +1,4 @@
 # JavaPerformanceTesting
-<br/>
 1.Here we will be dealing with different VM arguments,Options,Tools that might be helpful to imporve performance.
 <br/>
 2.Goto cmd and type-> **jps** - it will give all the current running java processes on Windows. 
@@ -14,3 +13,4 @@
 <br/>
 6. **java -XX:+PrintCompilation mainTest** will run mainTest application with PrintCompilation enabled. <br/> PrintCompilation option gives statistics like which tier of jit compilation is used.method is static or not. any exception occurred or not. natively compiled or not.
 <br/>
+7. **jmh** -> JMH (Java Microbenchmark Harness) is a framework to measure the performance of a function.
