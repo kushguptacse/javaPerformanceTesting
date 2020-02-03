@@ -28,7 +28,7 @@ There is column value from 0-4 <br/>
 **10** **InitialCodeCacheSize ReservedCodeCacheSize CodeCacheExpansionSize** -> these three property are used to update the initial code cache size used,maximum code cache size available, and by what rate codeCache will expand from initial size to max size.<br/>
 e.g. - **java -XX:ReservedCodeCacheSize=28m MainTest** -> it set max code cache size to 28MB.<br/>
 **11**. **JConsole application** - It is present inside jdk bin folder and on start it ask for the process id which we want to connect.<br/>JConsole is a graphical monitoring tool to monitor Java Virtual Machine (JVM) and Java applications both on a local or remote machine<br/>
-It gives java Application Memory Analysis,Thread Analysis etc. There are other free tools such as JVisualvm which provide some add on features also. <br/>
+It gives java Application Memory Analysis,Thread Analysis etc. There are other free tools such as **JVisualvm** which provide some add on features also. <br/>
 **12** **jmc (Java Mission Control)** is a GUI tool suite for managing, monitoring, profiling, and troubleshooting your Java applications. it provides **jfr(Flight Recording)** and **MBean**. MBean server can provide various aspects of running jvm and jfr is used to collects event.
 **13** **java -XX:+PrintFlagsFinal** -> It does not require any class name with it. it will list down all the possible VM flags and there current values.<br/>
 **14** **java -XX:CompileThreshold=n MainTest** -> It set the CompileThreshold value to n. It means after n value code will start to be natively compiled. default value is 10000. if we decreased it code will be earlier natively compiled. this option is rarely used.<br/>
