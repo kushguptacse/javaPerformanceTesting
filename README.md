@@ -29,6 +29,7 @@ There is column value from 0-4 <br/>
 e.g. - **java -XX:ReservedCodeCacheSize=28m MainTest** -> it set max code cache size to 28MB.<br/>
 **11**. **JConsole application** - It is present inside jdk bin folder and on start it ask for the process id which we want to connect.<br/>JConsole is a graphical monitoring tool to monitor Java Virtual Machine (JVM) and Java applications both on a local or remote machine<br/>
 It gives java Application Memory Analysis,Thread Analysis etc. There are other free tools such as JVisualvm which provide some add on features also. <br/>
-**12** **java -XX:+PrintFlagsFinal** -> It does not require any class name with it. it will list down all the possible VM flags and there current values.
-**13** **java -XX:CompileThreshold=n MainTest** -> It set the CompileThreshold value to n. It means after n value code will start to be natively compiled. default value is 10000. if we decreased it code will be earlier natively compiled. this option is rarely used.
+**12** **java -XX:+PrintFlagsFinal** -> It does not require any class name with it. it will list down all the possible VM flags and there current values.<br/>
+**13** **java -XX:CompileThreshold=n MainTest** -> It set the CompileThreshold value to n. It means after n value code will start to be natively compiled. default value is 10000. if we decreased it code will be earlier natively compiled. this option is rarely used.<br/>
+**14** java has permGem related flags which are not needed post java 8. if we still use those flags in java 8 it will be ignored. in place of permGem java use MetaSpace. permGem is fixed size memory in heap but on ther hand MetaSpace is part of native memory not part of Heap<br/>
 
