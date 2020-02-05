@@ -36,4 +36,9 @@ It gives java Application Memory Analysis,Thread Analysis etc. There are other f
 **16** Static reference variables and class definition details are stored in **MetaSpace**<br/>
 **17** before java 7 String constant pool was part of permGem Space. after 7 it is moved to Heap. <br/>
 After java 8 permgem is not used. metaspace is used. <br/>
+**18** **GraalVM** is a high-performance, embeddable, polyglot Virtual Machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Kotlin, and LLVM-based languages such as C and C++.<br/>
+for java it gives own javac and own jvm. it also provide option to compile code directly into native instructions( so, in such case no need of jvm, code will directly run on operating system)<br/>
+from java 11 we get GraalVM option also instead of using jvm.
+
+
 
