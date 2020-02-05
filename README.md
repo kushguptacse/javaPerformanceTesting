@@ -38,7 +38,7 @@ It gives java Application Memory Analysis,Thread Analysis etc. There are other f
 After java 8 permgem is not used. metaspace is used. <br/>
 **18** **GraalVM** is a high-performance, embeddable, polyglot Virtual Machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Kotlin, and LLVM-based languages such as C and C++.<br/>
 for java it gives own javac and own jvm. it also provide option to compile code directly into native instructions( so, in such case no need of jvm, code will directly run on operating system)<br/>
-from java 11 we get GraalVM option also instead of using jvm.
+from java 11 we get GraalVM option also instead of using jvm. <br/>
 **19** **javap** -> it is used to give any class information and description. <br/>
 e.g. 1-> javap java.lang.String<br/>
 e.g. 2-> javap -v java.lang.String -> it give more detail in verbose mode of class.<br/>
