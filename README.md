@@ -44,6 +44,7 @@ e.g. 1-> javap java.lang.String<br/>
 e.g. 2-> javap -v java.lang.String -> it give more detail in verbose mode of class.<br/>
 **20** **java -Xms330m App** it run app with initial heap size as 300MB.<br/>
 **21** **java -Xmx2048m App** it run app with maximum heap size as 2048MB.<br/>
+**22** **Soft leak** - object in memory remained refernced when no longer needed.<br/>
 
 
 
