@@ -46,8 +46,8 @@ e.g. 2-> javap -v java.lang.String -> it give more detail in verbose mode of cla
 **20** **java -Xms330m App** it run app with initial heap size as 300MB.<br/>
 **21** **java -Xmx2048m App** it run app with maximum heap size as 2048MB.<br/>
 **22** Since java provide automatica garbage collection, Memory Leaks are not possible. but if there are some object which no longer needed in code but they are reachable via some reference varibale, in such case such objects will lead to Soft leak. and in such case even after increasing heap size ,problem will not resolve as it will evenutally will give outOfMemory Error. **Soft leak** - object in memory remained referenced when no longer needed.<br/>
-**23** Heap dump can be generated via command line option or via jvisualVM also. Eg-> java -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=filepath Main
-**24** **Eclipse Memory Analayser** is a tool which cane be used to analyse the heap dump already generated or can also connect to live running application to analyse the heap. It provide option of generating 'Leak Suspects Report' to provide info of which objects is taking how much memory.
+**23** Heap dump can be generated via command line option or via jvisualVM also. Eg-> java -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=filepath Main.<br/>
+**24** **Eclipse Memory Analayser** is a tool which cane be used to analyse the heap dump already generated or can also connect to live running application to analyse the heap. It provide option of generating 'Leak Suspects Report' to provide info of which objects is taking how much memory.<br/>
 
 
 
